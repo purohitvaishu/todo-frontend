@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test: Bucket container 1`] = `
+"<WithStyles(ForwardRef(Dialog)) onClose={[Function: handleClose]} aria-labelledby=\\"customized-dialog-title\\" open={false}>
+  <DialogTitle id=\\"customized-dialog-title\\" onClose={[Function: handleClose]}>
+    Add List
+  </DialogTitle>
+  <WithStyles(WithStyles(ForwardRef(DialogContent))) dividers={true} className=\\"makeStyles-dialogcontent-3\\">
+    <WithStyles(ForwardRef(InputLabel)) htmlFor=\\"outlined-adornment-bucket\\">
+      Bucket Name
+    </WithStyles(ForwardRef(InputLabel))>
+    <WithStyles(ForwardRef(Autocomplete)) value={[undefined]} onChange={[Function: onChange]} id=\\"controllable-states-demo\\" options={{...}} className=\\"makeStyles-textFieldDrop-5\\" renderInput={[Function: renderInput]} />
+    <br />
+    <WithStyles(ForwardRef(InputLabel)) htmlFor=\\"outlined-adornment-title\\">
+      Title
+    </WithStyles(ForwardRef(InputLabel))>
+    <WithStyles(ForwardRef(OutlinedInput)) id=\\"outlined-adornment-title\\" value={[undefined]} onChange={[Function (anonymous)]} className=\\"makeStyles-textField-4\\" />
+    <br />
+    <WithStyles(ForwardRef(InputLabel)) htmlFor=\\"outlined-adornment-description\\">
+      Description
+    </WithStyles(ForwardRef(InputLabel))>
+    <WithStyles(ForwardRef(OutlinedInput)) id=\\"outlined-adornment-description\\" value={[undefined]} onChange={[Function (anonymous)]} className=\\"makeStyles-textField-4\\" />
+    <br />
+    <WithStyles(ForwardRef(FormControlLabel)) control={{...}} label={{...}} />
+  </WithStyles(WithStyles(ForwardRef(DialogContent)))>
+  <WithStyles(WithStyles(ForwardRef(DialogActions)))>
+    <WithStyles(ForwardRef(Button)) autoFocus={true} onClick={[Function: handleCreate]} color=\\"primary\\" className=\\"makeStyles-button-6\\">
+      Save
+    </WithStyles(ForwardRef(Button))>
+  </WithStyles(WithStyles(ForwardRef(DialogActions)))>
+</WithStyles(ForwardRef(Dialog))>"
+`;

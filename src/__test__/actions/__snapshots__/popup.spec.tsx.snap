@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Popup: action for create call api 1`] = `
+Object {
+  "body": Object {
+    "bucketname": "The Godfather",
+    "completed": false,
+    "description": "Submit to doctor",
+    "title": "File",
+  },
+  "endPoint": "api/todos/",
+  "method": "post",
+  "type": "app/CALL_API",
+  "types": Array [
+    "actions/popup/ADD_LIST_REQUEST",
+    "actions/popup/ADD_LIST_SUCCESS",
+    "actions/popup/ADD_LIST_FAILED",
+  ],
+}
+`;
+
+exports[`Popup: action for delete call api 1`] = `
+Object {
+  "endPoint": "api/todos/1/",
+  "method": "delete",
+  "type": "app/CALL_API",
+  "types": Array [
+    "actions/popup/DELETE_LIST_REQUEST",
+    "actions/popup/DELETE_LIST_SUCCESS",
+    "actions/popup/DELETE_LIST_FAILED",
+  ],
+}
+`;
+
+exports[`Popup: action for edit call api 1`] = `
+Object {
+  "body": Object {
+    "bucketname": "The Godfather",
+    "completed": false,
+    "description": "Submit to doctor",
+    "title": "File",
+  },
+  "endPoint": "api/todos/1/",
+  "method": "put",
+  "type": "app/CALL_API",
+  "types": Array [
+    "actions/popup/EDIT_LIST_REQUEST",
+    "actions/popup/EDIT_LIST_SUCCESS",
+    "actions/popup/EDIT_LIST_FAILED",
+  ],
+}
+`;
+
+exports[`Popup: action for get call api 1`] = `
+Object {
+  "endPoint": "api/todos/",
+  "method": "get",
+  "type": "app/CALL_API",
+  "types": Array [
+    "actions/popup/GET_LIST_REQUEST",
+    "actions/popup/GET_LIST_SUCCESS",
+    "actions/popup/GET_LIST_FAILED",
+  ],
+}
+`;
+
+exports[`Popup: action for popup call function 1`] = `
+Object {
+  "data": Object {
+    "edit": undefined,
+    "params": Object {
+      "bucketname": "Fullfill todo list",
+      "completed": true,
+      "description": "Bucket for testing",
+      "id": 2,
+      "title": "Bucket",
+    },
+    "value": undefined,
+  },
+  "type": "actions/popup/APP_LIST_POPUP",
+}
+`;

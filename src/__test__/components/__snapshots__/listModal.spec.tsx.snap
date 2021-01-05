@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test: Bucket container 1`] = `
+"<WithStyles(ForwardRef(Dialog)) onClose={[undefined]} aria-labelledby=\\"customized-dialog-title\\" open={[undefined]}>
+  <DialogTitle id=\\"customized-dialog-title\\" onClose={[undefined]}>
+    <Styled(MuiBox) style={{...}}>
+      <CircularProgressWithLabel value={NaN} />
+      <Styled(MuiBox) style={{...}}>
+        <WithStyles(ForwardRef(Typography)) variant=\\"h6\\" component=\\"h2\\" style={{...}} />
+        <WithStyles(ForwardRef(Typography)) style={{...}}>
+          0
+           of 
+          0
+           Tasks
+        </WithStyles(ForwardRef(Typography))>
+      </Styled(MuiBox)>
+    </Styled(MuiBox)>
+  </DialogTitle>
+  <WithStyles(WithStyles(ForwardRef(DialogContent))) dividers={true} className=\\"makeStyles-dialogcontent-3\\" />
+  <WithStyles(WithStyles(ForwardRef(DialogActions)))>
+    <WithStyles(ForwardRef(Tooltip)) title=\\"Add Item\\" aria-label=\\"add\\">
+      <WithStyles(ForwardRef(Button)) autoFocus={true} color=\\"primary\\" className=\\"makeStyles-button-5\\" onClick={[Function: onClick]}>
+        <Memo([object Object]) />
+      </WithStyles(ForwardRef(Button))>
+    </WithStyles(ForwardRef(Tooltip))>
+  </WithStyles(WithStyles(ForwardRef(DialogActions)))>
+</WithStyles(ForwardRef(Dialog))>"
+`;

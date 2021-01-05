@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test: Bucket container 1`] = `
+"<Styled(MuiBox) position=\\"relative\\" display=\\"inline-flex\\" style={{...}}>
+  <WithStyles(ForwardRef(CircularProgress)) variant=\\"determinate\\" style={{...}} size={30} thickness={4} value={100} />
+  <WithStyles(ForwardRef(CircularProgress)) style={{...}} size={30} variant=\\"determinate\\" value={20} />
+</Styled(MuiBox)>"
+`;

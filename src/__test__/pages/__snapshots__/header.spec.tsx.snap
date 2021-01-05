@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test: Header container 1`] = `
+"<Fragment>
+  <WithStyles(ForwardRef(Grid)) style={{...}}>
+    <WithStyles(ForwardRef(Grid)) item={true} md={5} sm={12} className=\\"makeStyles-divider-2\\">
+      <WithStyles(ForwardRef(Divider)) />
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid)) item={true} md={2} sm={12} className=\\"makeStyles-heading-3\\">
+      <WithStyles(ForwardRef(Typography)) variant=\\"h4\\" component=\\"h2\\" style={{...}}>
+        Tasks 
+      </WithStyles(ForwardRef(Typography))>
+      <WithStyles(ForwardRef(Typography)) variant=\\"h4\\" component=\\"h2\\" className=\\"makeStyles-topHead-4\\">
+        Lists
+      </WithStyles(ForwardRef(Typography))>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid)) item={true} md={5} sm={12} className=\\"makeStyles-divider-2\\">
+      <WithStyles(ForwardRef(Divider)) />
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid)) className=\\"makeStyles-button-5\\">
+    <WithStyles(ForwardRef(Button)) variant=\\"outlined\\" onClick={[Function: handleClickOpen]}>
+      <Memo([object Object]) />
+    </WithStyles(ForwardRef(Button))>
+    <WithStyles(ForwardRef(Typography)) variant=\\"h5\\" component=\\"h2\\">
+      Add List
+    </WithStyles(ForwardRef(Typography))>
+  </WithStyles(ForwardRef(Grid))>
+</Fragment>"
+`;

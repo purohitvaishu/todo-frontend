@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test: Bucket container 1`] = `
+"<WithStyles(ForwardRef(Card)) className=\\"makeStyles-root-1\\">
+  <WithStyles(ForwardRef(CardHeader)) title=\\"\\" className=\\"makeStyles-cardHeader-3\\" />
+  <WithStyles(ForwardRef(Divider)) />
+  <WithStyles(ForwardRef(CardContent)) className=\\"scroll\\" />
+</WithStyles(ForwardRef(Card))>"
+`;

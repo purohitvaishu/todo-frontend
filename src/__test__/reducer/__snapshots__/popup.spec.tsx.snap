@@ -1,0 +1,155 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Popup: reducer Add List on failure 1`] = `
+Object {
+  "bucketname": "",
+  "completed": false,
+  "description": "",
+  "edit": false,
+  "id": null,
+  "list": Array [],
+  "open": false,
+  "title": "",
+}
+`;
+
+exports[`Popup: reducer Add List on request 1`] = `
+Object {
+  "bucketname": "",
+  "completed": false,
+  "description": "",
+  "edit": false,
+  "id": null,
+  "list": Array [],
+  "open": false,
+  "title": "",
+}
+`;
+
+exports[`Popup: reducer Add List on success 1`] = `
+Object {
+  "bucketname": "",
+  "completed": false,
+  "description": "",
+  "edit": false,
+  "id": null,
+  "list": Array [
+    Object {
+      "bucketname": "Grocery",
+      "data": Array [
+        Object {
+          "completed": false,
+          "description": "For every morning 1ltr",
+          "id": 6,
+          "title": "Milk",
+        },
+      ],
+    },
+  ],
+  "open": false,
+  "title": "",
+}
+`;
+
+exports[`Popup: reducer Get List on failure 1`] = `
+Object {
+  "bucketname": "",
+  "completed": false,
+  "description": "",
+  "edit": false,
+  "id": null,
+  "list": Array [],
+  "open": false,
+  "title": "",
+}
+`;
+
+exports[`Popup: reducer Get List on request 1`] = `
+Object {
+  "bucketname": "",
+  "completed": false,
+  "description": "",
+  "edit": false,
+  "id": null,
+  "list": Array [],
+  "open": false,
+  "title": "",
+}
+`;
+
+exports[`Popup: reducer Get List on success 1`] = `
+Object {
+  "bucketname": "",
+  "completed": false,
+  "description": "",
+  "edit": false,
+  "id": null,
+  "list": Array [
+    Object {
+      "bucketname": "Trip to Paris",
+      "data": Array [
+        Object {
+          "completed": true,
+          "description": "Check passport for migrations",
+          "id": 2,
+          "title": "Passport Check",
+        },
+      ],
+    },
+  ],
+  "open": false,
+  "title": "",
+}
+`;
+
+exports[`Popup: reducer Popup function on failure 1`] = `
+Object {
+  "bucketname": "",
+  "completed": false,
+  "description": "",
+  "edit": false,
+  "id": null,
+  "list": Array [],
+  "open": false,
+  "title": "",
+}
+`;
+
+exports[`Popup: reducer Popup function on request 1`] = `
+Object {
+  "bucketname": "The Godfather",
+  "completed": false,
+  "description": "Submit to doctor",
+  "edit": true,
+  "id": 5,
+  "list": Array [],
+  "open": true,
+  "title": "File",
+}
+`;
+
+exports[`Popup: reducer Popup function on success 1`] = `
+Object {
+  "bucketname": "",
+  "completed": false,
+  "description": "",
+  "edit": false,
+  "id": null,
+  "list": Array [],
+  "open": false,
+  "title": "",
+}
+`;
+
+exports[`Popup: reducer set initial state 1`] = `
+Object {
+  "bucketname": "",
+  "completed": false,
+  "description": "",
+  "edit": false,
+  "id": null,
+  "list": Array [],
+  "open": false,
+  "title": "",
+}
+`;
